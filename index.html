@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+        }
+        .main{
+            border:1px solid black;
+            width:800px;
+            height:550px;
+            /* background-color:aquamarine; */
+        }
+        .form{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            gap:5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <form action="" class="form">
+            <h1>Registration Form</h1>
+            <label for=""> UserName</label>
+            <input type="text">
+            <label for="">Password</label>
+            <input type="password">
+            <label for="">Roll Number</label>
+            <input type="number">
+            <label for="">Phone Number</label>
+            <input type="number">
+            <label for="">Email Id</label>
+            <input type="email">
+            <label for="">Select Highest Degree</label>
+            <select name="Highest_Degree" id="">
+                <option value="disabled" selected></option>
+               <option value="M.Tech">M.Tech</option>
+               <option value="BE/B.Tech">BE/B.Tech</option>
+               <option value="Degree">Degree</option>
+               <option value="Intermediate">Intermediate</option>
+               <option value="SSC">SSC</option>
+            </select>
+            <label for="">Select Branch</label>
+            <select name="Branch Name" id="">
+                <option value="disabled" selected></option>
+                <option value="IT">IT</option>
+                <option value="EEE">EEE</option>
+                <option value="ECE">ECE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="MECH">MECH</option>
+            </select>
+            <!-- <label for="">Percentage</label>
+            <input type="number"  max="0" max="3" step="0.01"> -->
+            <!-- <label for="">Percentage</label>
+            <input type="radio"id="xyz">
+            <label for="">CGPA</label>
+            <input type="radio"> -->
+            <label for="">Marks</label>
+            <select name="Marks" id="">
+                <option value="disabled" selected></option>
+                <option value="Percentage">Percentage</option>
+                <option value="CGPA">CGPA</option>
+            </select>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+        
+
+    </section>
+</body>
+</html>
